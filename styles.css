@@ -14,7 +14,7 @@
       max-width: none;
     }
   
-    .livro1, .livro2, .livro3, .livro4 {
+    .livro1, .livro2, .livro3, .livro4, .livro5, .livro6 {
       margin-top: 0;
     }
   
@@ -24,7 +24,7 @@
   }
   
   @media (min-width: 768px) {
-    .section, .section2, .section3, .section4, .caixa, .Caixacompras {
+    .section, .section2, .section3, .section4, .section5, .section6, .caixa, .Caixacompras {
       width: 50%;
     }
   
@@ -87,7 +87,7 @@
     font-size: 20px;
   }
   
-  .section, .section2, .section3, .section4, .caixa, .Caixacompras {
+  .section, .section2, .section3, .section4, .section5,.section6, .caixa, .Caixacompras {
     padding: 20px;
     margin: 20px auto;
     background-image: url(./img/tan-stained-paper-texture-7-280x280.jpg);
@@ -100,12 +100,12 @@
     font-size: 24px;
   }
   
-  .livro-container, .livro-container2, .livro-container3, .livro-container4 {
+  .livro-container, .livro-container2, .livro-container3, .livro-container4, .livro-container5, .livro-container6 {
     display: flex;
     align-items: center;
   }
   
-  .livro1, .livro2, .livro3, .livro4 {
+  .livro1, .livro2, .livro3, .livro4, .livro5, .livro6  {
     flex: 1;
     margin-left: 10px;
   }
